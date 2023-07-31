@@ -39,7 +39,7 @@ You can install all the required dependencies by running:
 ```bash
 npm install
 
-Getting Started
+## Getting Started
 Follow these instructions to set up the project on your local machine:
 
 Clone the repository:
