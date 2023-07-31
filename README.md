@@ -2,8 +2,7 @@
 
 ![Rayflix Logo](link_to_logo.png)
 
-Rayflix is a movie and TV show website built using React. It allows users to browse and search for movies and TV shows, add them to a watchlist, and mark them as watched. The website fetches data using the TMDB API and stores watchlist and watched items data using cookies.
-
+Rayflix is a movie and TV show website built using React and styled with Tailwind CSS. It allows users to browse and search for movies and TV shows, add them to a watchlist, and mark them as watched. The website fetches data using the TMDB API and stores watchlist and watched items data using cookies.
 
 ## Demo
 
@@ -32,19 +31,44 @@ The project has the following dependencies:
 - React
 - React Router
 - Axios
-- Tailwind Css
+- Tailwind CSS
 - ... (other dependencies)
 
 You can install all the required dependencies by running:
 
-
 ```bash
 npm install
 
+Getting Started
+Follow these instructions to set up the project on your local machine:
 
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/rayen56/Rayflix.git
+cd Rayflix
+Install the dependencies:
+bash
+Copy code
+npm install
+Run the development server:
+bash
+Copy code
+npm start
+The website will be accessible at http://localhost:3000/ in your web browser.
 
+Colors and Logos
+The website uses a color scheme that complements the design and enhances the user experience. Here are the primary colors used:
 
+Primary Color: #xxxxxx
+Secondary Color: #xxxxxx
+Accent Color: #xxxxxx
+The logos and images used in the website can be found in the /public directory.
 
-### `npm run build` fails to minify
+Deployment
+The website is deployed using Vercel. Any new changes pushed to the main branch will trigger an automatic deployment to the live demo URL.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Demo: Rayflix Demo
+
+Contributing
+Contributions to this project are welcome. If you find any bugs, have feature suggestions, or want to improve the code, please feel free to open an issue or submit a pull request.
