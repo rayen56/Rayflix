@@ -1,6 +1,7 @@
 # Rayflix - Movie and TV Show Website
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Rayflix is a movie and TV show website built using React. It allows users to browse and search for movies and TV shows, add them to a watchlist, and mark them as watched. The website fetches data using the TMDB API and stores watchlist and watched items data using cookies.
 
 ## Website Preview
@@ -56,6 +57,8 @@ Demo: https://rayflix-tau.vercel.app/
 
 =======
 ![Rayflix Logo](./public/logo512.png)
+=======
+>>>>>>> 5fa9ce08bb8919b64bbf509c7141e966743862b3
 
 Rayflix is a movie and TV show website built using React. It allows users to browse and search for movies and TV shows, add them to a watchlist, and mark them as watched. The website fetches data using the TMDB API and stores watchlist and watched items data using cookies.
 
