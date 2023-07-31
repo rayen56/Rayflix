@@ -25,15 +25,11 @@ const Details = ({
     release_date,
     poster_path,
     vote_average,
-    backdrop_path,
     tagline,
     genres,
     runtime,
   } = movie;
-  const releaseYear = release_date
-    ? new Date(release_date).getFullYear()
-    : "N/A";
-
+  
   const [trailerKey, setTrailerKey] = useState(null);
 
   useEffect(() => {

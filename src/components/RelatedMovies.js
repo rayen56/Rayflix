@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
 import MovieCard from '../components/movies/MovieCard';
 import {
   Navigation,
@@ -46,11 +45,6 @@ const RelatedMovies = ({ castId }) => {
   if (loading) {
     return <div className="text-white py-8">Loading related movies...</div>;
   }
-
-  const handleShowMore = () => {
-    // Increase the limit to show more movies
-    setLimit((prevLimit) => prevLimit + 8);
-  };
 
   return (
     <div>
