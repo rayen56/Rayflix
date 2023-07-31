@@ -53,18 +53,11 @@ Copy code
 npm start
 The website will be accessible at http://localhost:3000/ in your web browser.
 
-Colors and Logos
-The website uses a color scheme that complements the design and enhances the user experience. Here are the primary colors used:
 
-Primary Color: #xxxxxx
-Secondary Color: #xxxxxx
-Accent Color: #xxxxxx
-The logos and images used in the website can be found in the /public directory.
-
-Deployment
+## Deployment
 The website is deployed using Vercel. Any new changes pushed to the main branch will trigger an automatic deployment to the live demo URL.
 
 Demo: Rayflix Demo
 
-Contributing
+## Contributing
 Contributions to this project are welcome. If you find any bugs, have feature suggestions, or want to improve the code, please feel free to open an issue or submit a pull request.
