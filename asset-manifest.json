@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Rayflix/static/css/main.0c7bd745.css",
-    "main.js": "/Rayflix/static/js/main.b116d151.js",
-    "index.html": "/Rayflix/index.html",
-    "main.0c7bd745.css.map": "/Rayflix/static/css/main.0c7bd745.css.map",
-    "main.b116d151.js.map": "/Rayflix/static/js/main.b116d151.js.map"
+    "main.css": "/static/css/main.0c7bd745.css",
+    "main.js": "/static/js/main.a62ddc93.js",
+    "index.html": "/index.html",
+    "main.0c7bd745.css.map": "/static/css/main.0c7bd745.css.map",
+    "main.a62ddc93.js.map": "/static/js/main.a62ddc93.js.map"
   },
   "entrypoints": [
     "static/css/main.0c7bd745.css",
-    "static/js/main.b116d151.js"
+    "static/js/main.a62ddc93.js"
   ]
 }
