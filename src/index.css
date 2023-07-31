@@ -1,13 +1,13 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css (or your main CSS file) */
+/* Customize the scrollbar color */
+.mySwiper .swiper-scrollbar-drag {
+    background-color: #fff; /* Replace 'your-color' with your desired color */
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+h2,h1,h3,h4,h5,h6{
+  font-family: 'Quicksand', sans-serif;
 }
