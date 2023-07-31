@@ -1,21 +1,36 @@
 # Rayflix - Movie and TV Show Website
 
-![Rayflix Logo](link_to_logo.png)
+![Rayflix Logo](https://rayflix-tau.vercel.app/)
 
-Rayflix is a movie and TV show website built using React and styled with Tailwind CSS. It allows users to browse and search for movies and TV shows, add them to a watchlist, and mark them as watched. The website fetches data using the TMDB API and stores watchlist and watched items data using cookies.
+Rayflix is a movie and TV show website built using React. It allows users to browse and search for movies and TV shows, add them to a watchlist, and mark them as watched. The website fetches data using the TMDB API and stores watchlist and watched items data using cookies.
+
+## Website Preview
+
+![Rayflix Website](https://drive.google.com/uc?export=view&id=12eag2p5eAso2loXWBG57eMbR2pli7u48)
+
+Rayflix is designed with a user-friendly interface, providing a seamless experience for discovering and managing your favorite movies and TV shows.
 
 ## Demo
 
 Check out the live demo of the website: [Rayflix Demo](https://rayflix-tau.vercel.app/)
 
+## Tech Stack
+
+The Rayflix website is built using the following technologies:
+
+- React
+- Tailwind CSS
+- TMDB API
+- Swiper JS
+
+
 ## Table of Contents
 
 - [Features](#features)
 - [Dependencies](#dependencies)
-- [Getting Started](#getting-started)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
@@ -34,30 +49,10 @@ The project has the following dependencies:
 - Tailwind CSS
 - ... (other dependencies)
 
-
-## Getting Started
-Follow these instructions to set up the project on your local machine:
-
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/rayen56/Rayflix.git
-cd Rayflix
-Install the dependencies:
-bash
-Copy code
-npm install
-Run the development server:
-bash
-Copy code
-npm start
-The website will be accessible at http://localhost:3000/ in your web browser.
-
-
 ## Deployment
 The website is deployed using Vercel. Any new changes pushed to the main branch will trigger an automatic deployment to the live demo URL.
 
-Demo: Rayflix Demo
+Demo: https://rayflix-tau.vercel.app/
 
 ## Contributing
 Contributions to this project are welcome. If you find any bugs, have feature suggestions, or want to improve the code, please feel free to open an issue or submit a pull request.
