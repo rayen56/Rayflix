@@ -34,10 +34,6 @@ The project has the following dependencies:
 - Tailwind CSS
 - ... (other dependencies)
 
-You can install all the required dependencies by running:
-
-```bash
-npm install
 
 ## Getting Started
 Follow these instructions to set up the project on your local machine:
