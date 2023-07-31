@@ -6,7 +6,9 @@ Rayflix is a movie and TV show website built using React. It allows users to bro
 
 ## Website Preview
 
+
 ![Rayflix Website](https://drive.google.com/uc?export=view&id=12eag2p5eAso2loXWBG57eMbR2pli7u48)
+
 
 Rayflix is designed with a user-friendly interface, providing a seamless experience for discovering and managing your favorite movies and TV shows.
 
