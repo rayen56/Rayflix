@@ -4,8 +4,14 @@
 /* styles.css (or your main CSS file) */
 /* Customize the scrollbar color */
 .mySwiper .swiper-scrollbar-drag {
-    background-color: #fff; /* Replace 'your-color' with your desired color */
+    background-color: #ffffff; /* Replace 'your-color' with your desired color */
   }
+  .swiper-scrollbar{
+    background-color: #465748
+  }
+
+ 
+
 
   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
 h2,h1,h3,h4,h5,h6{

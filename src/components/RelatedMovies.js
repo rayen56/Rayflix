@@ -47,8 +47,9 @@ const RelatedMovies = ({ castId }) => {
   }
 
   return (
+    (!relatedMovies?.length) ? <h3 className="text-white py-12">No related movies found</h3> :
     <div>
-        <h2 className="text-2xl font-bold  mt-8 mb-4 text-white relative">Related Movies</h2>
+        <h2 className="text-2xl font-bold  my-12 text-white relative">Related Movies</h2>
         <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={0}

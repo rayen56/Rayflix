@@ -49,6 +49,7 @@ const RelatedTv = ({ castId }) => {
 
 
   return (
+    (!relatedTvShows?.length) ? <h3 className="text-white py-8">No related Tv found</h3> :
     <div>
         <h2 className="text-2xl font-bold mt-8 mb-4 text-white relative">Related Tv</h2>
         <Swiper

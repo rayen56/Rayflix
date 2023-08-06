@@ -207,7 +207,7 @@ const MoviesPage = () => {
         {loading ? (
           <div className="text-white text-center py-8">Loading movies...</div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 container mx-auto">
             {searchQuery.trim() !== '' && searchResults.length > 0 ? (
               // Display search results if available
               searchResults.map((movie) => (

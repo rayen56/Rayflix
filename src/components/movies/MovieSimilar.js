@@ -45,6 +45,7 @@ const MovieSimilar = ({ movieId }) => {
   }
 
   return (
+    (!similarMovies?.length) ? <h3 className="text-white mb-12 relative text-2xl font-bold">No Similar Movies Found</h3> :
     <div>
         <h2 className="text-2xl font-bold mb-4 text-white relative">Similar Movies</h2>
         <Swiper

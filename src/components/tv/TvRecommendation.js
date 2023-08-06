@@ -1,14 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import TvSeriesCard from './TvCard';
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-} from "swiper/modules";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -44,37 +37,42 @@ const TvRecommendation = ({ tvShowId }) => {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-4 text-white relative">You might also like</h2>
-      <Swiper
-        modules={[Navigation, Pagination, A11y, Scrollbar]}
-        spaceBetween={10}
-        slidesPerView={1}
-        scrollbar={{ draggable: true }}
-        loop={false}
-        breakpoints={{
-          640: {
-            slidesPerView: 2,
-          },
-          768: {
-            slidesPerView: 3,
-          },
-          1024: {
-            slidesPerView: 4,
-          },
-          1280: {
-            slidesPerView: 5,
-          },
-        }}
-      >
-        {recommendations.map((tvShow) => (
-          tvShow.poster_path ? (
-            <SwiperSlide key={tvShow.id}>
-              <TvSeriesCard key={tvShow.id} tvShow={tvShow} />
-            </SwiperSlide>
-          ) : null
-        ))}
-        <br />
-      </Swiper>
+      {recommendations?.length ? (
+        <>
+          <h2 className="text-2xl font-bold mb-4 text-white relative">You might also like</h2>
+          <Swiper
+            modules={[Navigation, Pagination, A11y, Scrollbar]}
+            spaceBetween={10}
+            slidesPerView={1}
+            scrollbar={{ draggable: true }}
+            loop={false}
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+              },
+              768: {
+                slidesPerView: 3,
+              },
+              1024: {
+                slidesPerView: 4,
+              },
+              1280: {
+                slidesPerView: 5,
+              },
+            }}
+          >
+            {recommendations.map((tvShow) => (
+              tvShow.poster_path ? (
+                <SwiperSlide key={tvShow.id}>
+                  <TvSeriesCard key={tvShow.id} tvShow={tvShow} />
+                </SwiperSlide>
+              ) : null
+            ))}
+          </Swiper>
+        </>
+      ) : (
+        <h3 className="text-white mb-12 relative text-2xl font-bold">No Recommendations Tv Found</h3>
+      )}
     </div>
   );
 };

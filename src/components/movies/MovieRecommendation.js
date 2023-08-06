@@ -43,6 +43,7 @@ const MovieRecommendation = ({ movieId }) => {
   }
 
   return (
+    (!recommendations?.length) ? <h3 className="text-white mb-12 relative text-2xl font-bold">No Recommendations Movies Found</h3> :
     <div>
       <h2 className="text-2xl font-bold mb-4 text-white relative">You might also like</h2>
       <Swiper

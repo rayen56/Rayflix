@@ -59,7 +59,7 @@ const TvDetailsPage = ({ addToWatchlist, watchlist, removeFromWatchlist, addToWa
         addToWatched={addToWatched}
         watchedList={watchedList}
         removeFromWatched={removeFromWatched} />
-        <div className='container mx-auto relative'>
+      <div className="max-w-4xl mx-auto">
         <TvRecommendation tvShowId={id} />
         <TvSimilar tvShowId={id}/>
 
